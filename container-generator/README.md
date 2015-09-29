@@ -1,5 +1,4 @@
-How to use this stuff...
-^^^^^^^^^^^^^^^^^^^^^^^^
+# How to use this stuff...
 
 Change to directory "src/main/groovy" and execute "groovy Container.groovy" with the option of your choice.
 If you don't know, what option "-h" would be a good start.
@@ -9,8 +8,12 @@ The input file is base for all generated containers. This should be a dumpfile f
 testenvironment. This is important so that the users are registered for ANQS at DPZ.
 Ask operations (M. Klinger) for details. He knows what to do... ;-)
 
+## Prerequisites
+After checkout run an "maven clean install" from the commandline. After that, create a ".groovy/lib" directory in
+your homedirectory should it not already exist. Change dir to "~/.groovy/lib" and run the following as sudo:
+    "ln -s ~/.m2/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar ."  (the final "." is important!)
 
-All available options:
+## All available options:
 
 mkgVersion:             guess what this means
 containerNamePrefix:    all container names will be prefixed with this e.g. "mkg60000_blabla.zip".

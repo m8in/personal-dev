@@ -29,7 +29,7 @@ OptionAccessor options = cli.parse(args)
 
 // help message, when no options or the -h option are given
 if ( options.h ) {
-    println(new File(basedir + '/../../../README').text)
+    println(new File(basedir + '/../../../README.md').text)
     cli.usage()
     return
 }

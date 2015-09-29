@@ -1,0 +1,5 @@
+# Ignore the following files and folders in this project
+
+.idea/
+container-generator.iml
+target/
