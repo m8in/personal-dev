@@ -1,0 +1,10 @@
+mkgVersion: '2.5'
+containerNamePrefix: mkg60000_
+maxPdfSize: '3'
+inputFile: martin.txt
+domainName: '@epsotbriefe.com'
+directory:
+    data: /../resources/data/
+    template: /../resources/templates/
+    pdf: /../resources/pdf/
+    target: /../../generated/

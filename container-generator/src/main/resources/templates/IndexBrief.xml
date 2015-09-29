@@ -1,0 +1,20 @@
+﻿    <brief>
+      <steueroptionen>
+        <anschriftqualifizierung>1</anschriftqualifizierung>
+        <belegkopie>1</belegkopie>
+      </steueroptionen>
+      <versandoptionen>
+        <briefzusatzleistung></briefzusatzleistung>
+      </versandoptionen>
+      <anschreibeninfo>
+        <datei>ANSCHREIBEN</datei>
+        <id>ID</id>
+      </anschreibeninfo>
+      <empfaenger>
+        <onlineadresse>EPBADRESSE</onlineadresse>
+      </empfaenger>
+      <anhaenge>
+        <anhang>ANHANG</anhang>
+      </anhaenge>
+      <kundenparameter />
+    </brief>

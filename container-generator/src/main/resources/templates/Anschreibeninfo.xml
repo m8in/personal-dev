@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<nachrichten version="2.0"
+	xmlns="http://epost.de/MKG/2.0/Anschreibeninfo/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<nachricht id="ID">
+		<betreff>BETREFF</betreff>
+		<text><![CDATA[Sehr geehrte Damen und Herren,
+
+		ANSCHREIBEN
+
+		Ihr freundlicher StressTester]]>
+		</text>
+	</nachricht>
+</nachrichten>
